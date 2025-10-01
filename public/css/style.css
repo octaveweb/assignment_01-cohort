@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --font: "Inter", sans-serif
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+    font-family: var(--font);
+}
+
+#wrapper {
+    height: fit-content;
+    overflow-x: hidden;
+    background-color: ghostwhite;
+}
+
+header {
+    height: 30vh;
+    width: 100%;
+    background-color: #1a2434;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+}
+
+.section {
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    text-align: center;
+    margin: 2rem 100px;
+    border-radius: 15px;
+
+}
+
+.section h1 {
+    margin-bottom: 1rem;
+}
+
+.section p {
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.section ul {
+    height: auto;
+    width: 100%;
+    color: #000;
+    list-style-type: none;
+}
+
+.section ul li {
+
+    background-color: #fff;
+    padding: 1rem 0;
+    font-size: 20px;
+    margin: .5rem 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease-out;
+    text-transform: capitalize;
+}
+
+.section ul li:hover {
+    background: #ffffff85;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(100.1px);
+    -webkit-backdrop-filter: blur(9.1px);
+
+}
+
+.section ul li:active {
+    transform: scale(0.95);
+}
+
+.section ul li::selection {
+    background-color: transparent;
+}
+
+header {
+    color: #fff;
+}
+
+header h1 {
+    font-size: 50px;
+    margin-bottom: 5px;
+}
+
+.s2 {
+    background-color: #fff;
+}
+
+.s3 {
+    background-color: #daf0ff;
+}
+
+.s4 {
+    background-color: #fef1bf;
+}
+
+.s5 {
+    background-color: #ebe6fe;
+}
+
+.s6 {
+    background-color: #d7fce3;
+}
