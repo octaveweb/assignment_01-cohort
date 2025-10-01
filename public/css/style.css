@@ -117,9 +117,37 @@ header h1 {
 .s6 {
     background-color: #d7fce3;
 }
-footer{
+
+footer {
     padding: 2rem 0;
     background-color: #1a2434;
     color: #fff;
     text-align: center;
+}
+
+@media(max-width: 600px) {
+
+    .section {
+        padding: 2rem 2rem;
+        margin: 2rem 0;
+    }
+header h1 {
+   font-size: 30px;
+}
+header p {
+   font-size: 12px;
+}
+
+    .section ul li {
+
+        background-color: #fff;
+        padding: 1rem 10px;
+        font-size: 18px;
+        margin: .5rem 0;
+        border-radius: 10px;
+        cursor: pointer;
+        transition: all 0.3s ease-out;
+        text-transform: capitalize;
+    }
+
 }
