@@ -117,3 +117,9 @@ header h1 {
 .s6 {
     background-color: #d7fce3;
 }
+footer{
+    padding: 2rem 0;
+    background-color: #1a2434;
+    color: #fff;
+    text-align: center;
+}
